@@ -1,11 +1,11 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_leaves - Find count of leaves
+ * binary_tree_nodes - Find count of nodes
  * @tree : Tree to check
- * Return: sum of leaves in children, or 1 if is leaf
+ * Return: sum of nodes in children plus one, or 0 if is leaf
  */
-size_t binary_tree_leaves(const binary_tree_t *tree)
+size_t binary_tree_nodes(const binary_tree_t *tree)
 {
 	if (!tree)
 		return (0);
